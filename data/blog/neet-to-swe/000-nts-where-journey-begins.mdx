@@ -1,0 +1,148 @@
+---
+title: '[NEET to SWE] 000 - Where the Journey begins'
+date: '2025-07-15T15:30:00-04:00'
+lastmod: '2025-07-15T15:30:00-04:00'
+tags: ['neet-to-swe']
+draft: false
+summary: 'Listing out the processes, objectives and plans inorder to succeed in this journey'
+images: []
+layout: PostSimple
+---
+
+# It starts here
+This is where my journey begins as a Java Software Engineer. To master the language, ecosystem and tools it has to offer.
+
+I have not been programming for some time and in order to achieve my goal in becoming a Java Software Engineer, I will need to work really hard.
+
+Going through Google Gemini to help me build a list of projects and being able to specify what I could learn from them. I have asked to make 150 different projects in a range of complexity.
+
+Here is category 1, a list a of 20 projects to get me started in the journey.
+
+
+# Projects
+# Java Core Projects: Foundational & Command Line Tools
+
+---
+
+These projects are excellent for getting comfortable with Java's syntax, basic input/output, and fundamental control flow, leveraging the `java.io`, `java.util`, and `java.lang` packages.
+
+## Projects
+### 1. Simple Calculator
+* **Core Concepts:** Basic arithmetic operations, `Scanner` for input, `System.out.println` for output, `if-else` or `switch` statements.
+* **Enhancements:** Support for exponents, square roots, order of operations (using a `Stack` for operator precedence), trigonometric functions (from `Math` class).
+* **How to Succeed:** Start with two numbers and one operation, then expand. Use a `while` loop for continuous calculations until the user exits.
+* **Resume:** Demonstrates basic logic, control flow, and command-line interaction in Java.
+
+### 2. To-Do List (Command Line)
+* **Core Concepts:** `ArrayList` for tasks, File I/O (`FileWriter`, `FileReader`, `BufferedReader`, `PrintWriter`), `String` manipulation, object-oriented design (e.g., `Task` class).
+* **Enhancements:** Prioritization, due dates (using `LocalDate`), task categories (enums), marking as complete. Error handling for file operations.
+* **How to Succeed:** Begin with in-memory storage, then add file persistence. Focus on a clean `Task` class.
+* **Resume:** Shows ability to manage data, simple state, and persistence using Java I/O.
+
+### 3. Number Guessing Game
+* **Core Concepts:** `Random` class, `while` loops, `if-else` statements, user input validation (`try-catch` for `InputMismatchException`).
+* **Enhancements:** Difficulty levels, tracking number of tries, high scores (saved to file), multiple rounds.
+* **How to Succeed:** Keep it simple initially; focus on the core game loop and input handling.
+* **Resume:** Reinforces fundamental control flow and exception handling.
+
+### 4. Mad Libs Generator
+* **Core Concepts:** `String` concatenation, `Scanner` for user input, `ArrayList` or arrays for word lists, `String.format()`.
+* **Enhancements:** Multiple story templates (read from files), saving custom templates.
+* **How to Succeed:** Define a clear template with placeholders first.
+* **Resume:** Demonstrates string handling and basic data management.
+
+### 5. Rock-Paper-Scissors Game
+* **Core Concepts:** Random choices for AI, `if-else` or `switch` for game logic, enum for choices.
+* **Enhancements:** Best of N rounds, score tracking, different game modes.
+* **How to Succeed:** Map inputs to choices clearly and handle ties.
+* **Resume:** Basic game logic and decision making in Java.
+
+### 6. Unit Converter
+* **Core Concepts:** Numeric conversions, `HashMap` for unit mappings, enum for unit types, custom exceptions for invalid units.
+* **Enhancements:** More unit categories (length, weight, temperature, volume), command-line arguments (using `main` method args).
+* **How to Succeed:** Start with one conversion type (e.g., Celsius to Fahrenheit), then abstract it.
+* **Resume:** Shows practical application of data structures, enums, and formulas.
+
+### 7. Simple Text Editor (Command Line)
+* **Core Concepts:** File I/O (`BufferedReader`, `BufferedWriter`), `String` manipulation (`indexOf`, `replace`, `substring`), `List<String>` to hold lines.
+* **Enhancements:** Line numbering, undo/redo (using a `Stack`), basic search/replace.
+* **How to Succeed:** Focus on read/write first, then add basic editing commands.
+* **Resume:** Demonstrates robust file handling and string processing.
+
+### 8. Countdown Timer/Stopwatch
+* **Core Concepts:** `Thread.sleep()`, `System.currentTimeMillis()`, `Date` or `LocalDateTime` for precise timing, basic multithreading (if running in background).
+* **Enhancements:** Sound notification, pause/resume, lap times (for stopwatch), custom format for display.
+* **How to Succeed:** Use a `Runnable` or simple loop with `Thread.sleep()`.
+* **Resume:** Shows understanding of time-based operations and basic concurrency.
+
+### 9. Password Generator
+* **Core Concepts:** `SecureRandom` for cryptographically strong random numbers, `StringBuilder` for efficient string building, user-defined criteria (length, complexity using `char` arrays).
+* **Enhancements:** Password strength checker, exclusion of ambiguous characters (e.g., 'l', '1', 'I', 'O', '0').
+* **How to Succeed:** Start with a fixed set of characters, then allow user customization.
+* **Resume:** Practical application of secure random generation and string building.
+
+### 10. Dice Rolling Simulator
+* **Core Concepts:** `Random` class, loops, `int` arithmetic.
+* **Enhancements:** Multiple dice types (d4, d6, d8, d10, d12, d20), sum of rolls, specific roll combinations, tracking frequency of rolls.
+* **How to Succeed:** Simulate one die roll first.
+* **Resume:** Basic random number usage and simulation.
+
+### 11. Text-Based Adventure Game (Choose Your Own Adventure)
+* **Core Concepts:** `HashMap` for mapping choices to next "scenes," `Scanner` for user input, methods for each scene, object-oriented design for game state (`Player` class, `Room` class).
+* **Enhancements:** Inventory system (`ArrayList`), character stats, multiple endings, saving game progress (serialization to file).
+* **How to Succeed:** Map out the story branches first. Use enum for game states or directions.
+* **Resume:** Demonstrates complex logic, flow control, and basic object-oriented design.
+
+### 12. Anagram Checker
+* **Core Concepts:** `String` conversion to `char[]`, `Arrays.sort()`, `String` comparison, `HashMap` to count character frequencies.
+* **Enhancements:** Find all anagrams from a given word list (requires a dictionary file).
+* **How to Succeed:** Understand how to normalize strings (lowercase, remove spaces) for comparison.
+* **Resume:** Shows string manipulation and logical comparison, efficiency considerations.
+
+### 13. Palindrome Checker
+* **Core Concepts:** `String` reversal (e.g., `StringBuilder.reverse()`), `String` comparison, handling case/spaces/punctuation (regex with `String.replaceAll()`).
+* **Enhancements:** Check for palindrome sentences.
+* **How to Succeed:** Start with simple words, then add complexity.
+* **Resume:** Basic string operations and logic.
+
+### 14. Simple Chatbot (Rule-Based)
+* **Core Concepts:** `String.contains()`, `if-else` chains or `HashMap<String, String>` for keyword-response mappings, basic regex for pattern matching.
+* **Enhancements:** More complex rule sets, simple conversational flow (tracking previous input), loading rules from a file.
+* **How to Succeed:** Define a few keywords and their responses.
+* **Resume:** Introduces basic text processing and rule-based systems.
+
+### 15. CSV Reader/Writer
+* **Core Concepts:** `FileReader`, `BufferedReader` for reading, `FileWriter`, `BufferedWriter` for writing, `String.split(",")` for parsing, handling quoted fields.
+* **Enhancements:** Filtering rows, sorting columns (using `Comparator`), converting to other formats (JSON using a library like Gson/Jackson).
+* **How to Succeed:** Use a simple CSV file with a header.
+* **Resume:** Practical data handling and parsing skills in Java.
+
+### 16. Hangman Game
+* **Core Concepts:** `String` manipulation, `ArrayList<Character>` for guessed letters, loops, tracking attempts, reading words from a file.
+* **Enhancements:** Word categories, graphical representation (ASCII art), scoring, `Set<Character>` for efficient guessed letter checks.
+* **How to Succeed:** Manage the "guessed letters" and "correct letters" data.
+* **Resume:** Game logic and string manipulation.
+
+### 17. Blackjack Game (Text-Based)
+* **Core Concepts:** Card game logic, `ArrayList` for deck and hands, `Random` for shuffling, enum for suits/ranks, object-oriented design (`Card`, `Deck`, `Player`, `Dealer` classes).
+* **Enhancements:** Multiple players, betting, splitting/doubling down.
+* **How to Succeed:** Focus on the core hit/stand logic and basic scoring.
+* **Resume:** Demonstrates more complex game rules, state management, and strong OOP.
+
+### 18. Metric to Imperial Converter
+* **Core Concepts:** Numeric conversions, enum for conversion types, `switch` statement, user input validation.
+* **Enhancements:** Bi-directional conversion, support for more units, reading conversion rates from a properties file.
+* **How to Succeed:** Implement one conversion pair and make it robust.
+* **Resume:** Practical data conversion and modular design.
+
+### 19. Simple Encryption/Decryption (Caesar Cipher)
+* **Core Concepts:** Character manipulation, loops, modular arithmetic (`%`), handling uppercase/lowercase.
+* **Enhancements:** Support for other simple ciphers (e.g., Vigenere), key management, basic GUI using Swing/JavaFX.
+* **How to Succeed:** Understand character ASCII values and shifting.
+* **Resume:** Basic cryptographic principles and character manipulation.
+
+### 20. Alarm Clock (Command Line)
+* **Core Concepts:** `LocalDateTime`, `Thread.sleep()`, `Timer` and `TimerTask` for scheduling, basic sound playback (Java Sound API).
+* **Enhancements:** Multiple alarms, recurring alarms, custom sounds, alarm persistence (to file).
+* **How to Succeed:** Get a basic single alarm working with a fixed time.
+* **Resume:** Shows understanding of time, scheduling, and basic multimedia.

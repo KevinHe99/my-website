@@ -13,20 +13,25 @@ export default function Projects() {
             Projects
           </h1>
           <p className="text-lg leading-7 text-gray-500 dark:text-gray-400">
-            Showcase your projects with a hero image (16 x 9)
+            {projectsData && projectsData.filter((d) => !d.draft).length <= 0
+              ? 'It is quiet in here.'
+              : ''}
           </p>
         </div>
         <div className="container py-12">
           <div className="-m-4 flex flex-wrap">
-            {projectsData.map((d) => (
-              <Card
-                key={d.title}
-                title={d.title}
-                description={d.description}
-                imgSrc={d.imgSrc}
-                href={d.href}
-              />
-            ))}
+            {projectsData
+              .filter((d) => !d.draft)
+              .map((d) => (
+                <Card
+                  key={d.title}
+                  title={d.title}
+                  series={d.series}
+                  description={d.description}
+                  imgSrc={d.imgSrc}
+                  href={d.href}
+                />
+              ))}
           </div>
         </div>
       </div>

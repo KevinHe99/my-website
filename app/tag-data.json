@@ -1,4 +1,6 @@
 {
+  "github": 3,
+  "templates": 2,
   "neet-to-swe": 2,
   "test": 1,
   "next-js": 7,
@@ -9,7 +11,6 @@
   "hello": 1,
   "math": 1,
   "ols": 1,
-  "github": 1,
   "writings": 1,
   "book": 1,
   "reflection": 1,
